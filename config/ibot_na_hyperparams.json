@@ -1,0 +1,57 @@
+{
+  "fixed_parameters": {
+    "lr": 0.0001,
+    "epochs": 100
+  },
+  "best_parameters": {
+    "phone-email": {
+      "alpha": 0.65,
+      "gamma_p": 0.01,
+      "init_threshold_lambda": 0.45,
+      "ib_kl_weight": 0.00000005,
+      "ib_anchor_weight": 0.05
+    },
+    "ACM-DBLP": {
+      "alpha": 0.7,
+      "gamma_p": 0.005,
+      "init_threshold_lambda": 1.0,
+      "ib_kl_weight": 0.000001,
+      "ib_anchor_weight": 0.7
+    },
+    "douban": {
+      "alpha": 0.55,
+      "gamma_p": 0.002,
+      "init_threshold_lambda": 1.25,
+      "ib_kl_weight": 0.0005,
+      "ib_anchor_weight": 0.3
+    },
+    "foursquare-twitter": {
+      "alpha": 0.65,
+      "gamma_p": 0.005,
+      "init_threshold_lambda": 1.05,
+      "ib_kl_weight": 0.01,
+      "ib_anchor_weight": 0.05
+    },
+    "arxiv": {
+      "alpha": 0.95,
+      "gamma_p": 0.01,
+      "init_threshold_lambda": 0.75,
+      "ib_kl_weight": 0.000001,
+      "ib_anchor_weight": 0.05
+    },
+    "GGI": {
+      "alpha": 0.9,
+      "gamma_p": 0.03,
+      "init_threshold_lambda": 0.9,
+      "ib_kl_weight": 0.00005,
+      "ib_anchor_weight": 0.9
+    },
+    "dbp15k_zh-en": {
+      "alpha": 0.95,
+      "gamma_p": 0.025,
+      "init_threshold_lambda": 0.95,
+      "ib_kl_weight": 0.00001,
+      "ib_anchor_weight": 0.05
+    }
+  }
+}

@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include algorithm.pdf
+include pyproject.toml
+include requirements.txt
+recursive-include config *.json
+recursive-include data *.npz
+recursive-include models *.py
+recursive-include scripts *.py
